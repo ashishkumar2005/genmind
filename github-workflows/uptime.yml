@@ -1,0 +1,29 @@
+name: Uptime checks
+
+# Synthetic checks every 15 minutes against production. A failed run emails the repo owners
+# (GitHub notification). For SMS/WhatsApp alerts, also add the site to UptimeRobot or Better Stack.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      SITE: ${{ vars.PRODUCTION_URL }}
+    steps:
+      - name: Key pages return 200 within 5 s
+        run: |
+          set -e
+          for p in / /solutions/schools /book-consultation /contact /sitemap.xml /llms.txt; do
+            code=$(curl -s -o /dev/null -w "%{http_code} %{time_total}" --max-time 5 "$SITE$p")
+            echo "$p → $code"
+            [ "${code%% *}" = "200" ] || { echo "::error::$p returned $code"; exit 1; }
+          done
+      - name: Form endpoint is alive and validating (expects 422 for an empty submission)
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 8 -X POST -H 'Content-Type: application/json' \
+            -H "Origin: $SITE" -d '{"type":"contact","data":{},"elapsedMs":5000}' "$SITE/api/lead")
+          echo "/api/lead → $code"
+          [ "$code" = "422" ] || { echo "::error::form endpoint returned $code"; exit 1; }

@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env*.local
+coverage
+playwright-report
+test-results
+.lighthouseci
+*.log
+.DS_Store
+next-env.d.ts
+
+# Form submissions saved by the built-in lead store (personal data, never commit)
+.data/
+
+# Static preview build (not part of the website)
+preview/
+tsconfig.tsbuildinfo
+.vercel

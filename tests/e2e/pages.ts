@@ -1,0 +1,20 @@
+// Kept in sync with src/lib/routes.ts (imported directly would pull in Next path aliases).
+export const PAGES = [
+  '/',
+  '/solutions/schools',
+  '/solutions/colleges',
+  '/solutions/students',
+  '/labs',
+  '/case-studies',
+  '/resources',
+  '/about',
+  '/contact',
+  '/book-consultation',
+  '/enquiry',
+  '/quote',
+  '/privacy',
+  '/cookies',
+  '/security',
+  '/accessibility',
+  '/site-map',
+];

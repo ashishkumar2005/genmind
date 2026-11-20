@@ -1,0 +1,44 @@
+{
+  "name": "genmindedtech-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GenMindedTech Pvt. Ltd. public website",
+  "scripts": {
+    "media": "tsx scripts/build-media.ts",
+    "predev": "npm run media",
+    "dev": "next dev",
+    "prebuild": "npm run media",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "test:a11y": "playwright test tests/e2e/a11y.spec.ts",
+    "lhci": "lhci autorun",
+    "check:placeholders": "tsx scripts/check-placeholders.ts",
+    "prelaunch": "npm run typecheck && npm run lint && npm run build && npm run check:placeholders"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.0",
+    "@lhci/cli": "0.14.0",
+    "@playwright/test": "1.48.0",
+    "@types/node": "20.16.11",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
+    "eslint": "8.57.1",
+    "sharp": "0.33.5",
+    "eslint-config-next": "14.2.15",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3",
+    "@types/three": "0.169.0"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}

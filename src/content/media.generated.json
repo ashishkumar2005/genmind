@@ -1,0 +1,150 @@
+{
+  "audience-schools": {
+    "src": "/images/audience-schools.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJZgCdAYsjgfRXU3kegAA/vMu7ueGCMTbgP6O165yX4I3rVLCLeP/9UtP4rvjMF57Oe/P6kw+NjY3fJDj5ZIeZtXLaetEYxUCN3Ymiy+KK/Zz9QXUAAAA",
+    "alt": "Lab tables set out for a class, with a tray of kit, tools and worksheets at each place",
+    "credit": "Unsplash"
+  },
+  "audience-colleges": {
+    "src": "/images/audience-colleges.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJaQAAwBNsEVtAAD+6jNkA1gPLmQ5zT+U8F1csavbqZtLH7P88cVvr44PMKqChkSRpaJBSM23RR9kwAA=",
+    "alt": "An industrial robot arm in a glass-walled lab cell",
+    "credit": "Unsplash"
+  },
+  "audience-students": {
+    "src": "/images/audience-students.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwAgCdASoQAAsAA4BaJZACdAYu5wfu8sCoatdgAOJ9ibdjPE3uPxA1Ppv3zmbbX2qU9gGrR4idMExS+b+2GVZB4ptG2Woqd2ski3dJgEdFdmodV8OY+eFoo+0WtnQEQAAAAA==",
+    "alt": "Hands wiring a microcontroller board on a breadboard",
+    "credit": "Unsplash"
+  },
+  "header-about": {
+    "src": "/images/header-about.jpg",
+    "width": 1920,
+    "height": 1442,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAQCdASoQAAwAA4BaJbACdADMW1C4XgAA/b9nqL+EiWhIfeN9XAg86tgcc8l4Es76jnQSBXbV8Y48Vn2tQrjc3EEmuI5YhztXSpwNu7hmkh7q/Z88h9WZXD4ws40rd//J2u3X3DFOsY9shuAAAA==",
+    "alt": "An Arduino board wired to a breadboard with colourful jumper wires",
+    "credit": "Unsplash",
+    "position": "50% 45%"
+  },
+  "header-resources": {
+    "src": "/images/header-resources.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAQCdASoQAAkAA4BaJZAAAYzrsPAA/uoAZAiifiUOhBeqVbAguZSMQNlDOhiT5iU81jguaeuewNAT1jo4d0hnw6OXVpbzFdy435fugAiyKMsEMCAAAA==",
+    "alt": "Close-up of a Raspberry Pi circuit board",
+    "credit": "Unsplash"
+  },
+  "header-case-studies": {
+    "src": "/images/header-case-studies.jpg",
+    "width": 1920,
+    "height": 1383,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAsAA4BaJZgC7AEfUoMs3kNy7oAA/uz95/DKxxZGYCiuZFSiRUDPRxNhnNVffGVdFczw1HDlr00ZGmjRoBDQk4VaXTGELvrpdHulstEHzfhsDzcn7WgAAAA=",
+    "alt": "A tracked robot with an ultrasonic sensor on a display table",
+    "credit": "Unsplash",
+    "position": "50% 60%"
+  },
+  "header-contact": {
+    "src": "/images/header-contact.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsAA4BaJbAC7AD1eLV9DAAA/vlLmVpoqrfV4bSwBnlK8j56nhBwGqpoEu33AnNCyLW7dRxUnlEBGQXwAA==",
+    "alt": "Program code in a dark editor on a laptop screen",
+    "credit": "Unsplash"
+  },
+  "offer-schools-1": {
+    "src": "/images/offer-schools-1.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAkAA4BaJYwC7ACfOBCgAP4BQM+rc2ee/E1lpVBKaoXt3V61g3rTiPRIMOqkDhucdQ7xmRAAAA==",
+    "alt": "A fitted-out lab classroom with workbenches, stools and storage cabinets",
+    "credit": "Unsplash"
+  },
+  "offer-schools-2": {
+    "src": "/images/offer-schools-2.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsAA4BaJagCdAEHMz3eD5wVAAD+yJvFDoFL6NCKP81/tKgx7p9YjSc2Mdldsl+IDbLM6/rK4gWJj/84n5TzhJQZgAAA",
+    "alt": "An open lesson-plan binder with pens and highlighters on a desk",
+    "credit": "Unsplash"
+  },
+  "offer-schools-3": {
+    "src": "/images/offer-schools-3.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsAA4BaJYwC7AEK8NcJp7mAAP7z5ugOWUYv3I28PDXp6UTA17Oglzwc/EUzK07h6Pm4pOKi5Ru1uVYho4m791MAAA==",
+    "alt": "A trainer's hand sketching a diagram on a whiteboard",
+    "credit": "Unsplash"
+  },
+  "offer-schools-4": {
+    "src": "/images/offer-schools-4.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAsAA4BaJbACdEf/i1r5rpsvsAAA/sUQA2R2YLnYP3JU6KZgnxtiK10nFMzYJXCdN6g1We+u2oGbFHU3ZZvu5zkmtuNQarjEHf/J/Ho3Tai/8exLO/BgAAA=",
+    "alt": "A student-built robot on a printed competition field",
+    "credit": "Unsplash",
+    "position": "50% 60%"
+  },
+  "offer-colleges-1": {
+    "src": "/images/offer-colleges-1.jpg",
+    "width": 1920,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAwAA4BaJYwC7AYubycnCmBRJIYA/ryYQUJJDiUv95WrnjdZbUnJShXrCcoUKxT8wrr8ASU3shbtM79aYGZ9eS/6Qhe+SOYTUCG0W2fgdqczaRqzSICrycDwvmBAAAA=",
+    "alt": "An advanced fabrication lab with CNC machines, tool chests and workbenches",
+    "credit": "Unsplash"
+  },
+  "offer-colleges-2": {
+    "src": "/images/offer-colleges-2.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAsAA4BaJQBOgMWgz9farPZeOoAA/f0kVEhBMt02kRHj5qrwSvdl5cxWltQmCDmDpCEpOEufE1ihVX2E4Xl465+ZUZ+fkRqtvSoo84Viyk/Y1Q7zQBUmJ1HSZeQDgN2lgAAA",
+    "alt": "A workshop table seen from above: laptops, notebooks and hands at work",
+    "credit": "Unsplash"
+  },
+  "offer-colleges-3": {
+    "src": "/images/offer-colleges-3.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsAA4BaJZQCw7CZWVDtAAD+298MQh/jcAL5aC9mGGy5iaYkHmsgwOEHZ2opJ0PCxyvgL62BuUDHTu+aNZJ3iwu+uLgIO2/FaThvUfRQStAA",
+    "alt": "A prototype circuit on breadboards being tested with a multimeter",
+    "credit": "Unsplash"
+  },
+  "offer-colleges-4": {
+    "src": "/images/offer-colleges-4.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkAA4BaJYwCdAEGeEmAAP7c9+ERrsJh+yiyuTNBBmfBjVcpeNzXKszfN2nj1BuEG4nbwAA=",
+    "alt": "A row of silver competition trophies",
+    "credit": "Unsplash"
+  },
+  "offer-students-1": {
+    "src": "/images/offer-students-1.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAAsAA4BaJYwCdAELWNT4kTZAAP73vrNmnCzAXud8lJzysCsRn0W5+Z4doOAvyOjwAA==",
+    "alt": "Program code on a laptop screen in a dark room",
+    "credit": "Unsplash"
+  },
+  "offer-students-2": {
+    "src": "/images/offer-students-2.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsAA4BaJQBOgCDpUx11sgD+i9KLlmgObYVVeVmnVw3bq6lgU9Z9eCOzLXqxKzR3QT5WRgNxdwr3MR9yGq/E51U77O/NAAA=",
+    "alt": "A small robot car with red wheels and an ultrasonic sensor",
+    "credit": "Unsplash",
+    "position": "80% 50%"
+  },
+  "offer-students-3": {
+    "src": "/images/offer-students-3.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAgCdASoQAAsAA4BaJYwCdMn9gf4tgnfbY5++AAD+5Gq2rRw/8DRc9sZUu1u4vowQOJ0kcz8HxkAS7QSxaqp0ehJtpRBlC+Vg05fjDBDvhtAmX102RxKcV0sNAQkMnjp44AAA",
+    "alt": "A team working on laptops at a long table, seen from above (no faces visible)",
+    "credit": "Unsplash"
+  }
+}
